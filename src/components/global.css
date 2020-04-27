@@ -13,9 +13,8 @@ h2, p {
 }
 
 @media (min-width: 768px) {
-    .md-overlay {
+    .md-overlay, .md-overlay-footer, .md-overlay-open {
         position: absolute;
-        top: 0;
         left: auto;
         width: 100%;
         height: auto;
@@ -23,14 +22,14 @@ h2, p {
         z-index: 10;
         background-color: rgba(255, 255, 255, 0.6);
     }
+    .md-overlay, .md-overlay-open {
+        top: 0;
+    }
+    .md-overlay-open {
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.8);
+    }
     .md-overlay-footer {
-        position: absolute;
         bottom: 0;
-        left: auto;
-        width: 100%;
-        height: auto;
-        max-height: 100%;
-        z-index: 10;
-        background-color: rgba(255, 255, 255, 0.6);
     }
 }
