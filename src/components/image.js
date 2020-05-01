@@ -30,6 +30,13 @@ const Image = ({className}) => {
           }
         }
       }
+      bekoImage3: file(relativePath: { eq: "beko3.jpg" }) {
+        childImageSharp {
+          fluid(maxWidth: 1280) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
     }
   `);
   console.log(data);

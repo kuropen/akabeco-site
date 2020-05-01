@@ -6,7 +6,7 @@ export default ({className}) => {
             <h2 className="text-xl font-bold">What is akabeko?</h2>
             <p>Akabeko is a traditional toy of Aizu region, the western part of Fukushima prefecture, 
                 which resembles legendary red cow used to build Enzoji temple (Fukuman Kokuzo) in Yanaizu town.<br />
-                The toy is believed to ward off sickness such as smallpox, as children who have this toy did not catch the illness.<br />
+                The toy is believed to ward off sickness such as smallpox, as children who had this toy did not catch the illness.<br />
                 Nowadays it is the situation of COVID-19 outbreak; the toy is widely noticed as a charm to ward off sickness.
             </p>
 
