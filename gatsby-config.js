@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Gain the Power from Akabeko`,
-    description: `Believe akabeko, a toy which was belived to protect Aizu children from small pox.`,
+    description: '赤べこは、天然痘などが流行した時代から、疾病避けのお守りとしても知られています。赤べこを信じよう。',
     author: `@kuropen_aizu`,
   },
   plugins: [
