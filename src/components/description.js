@@ -1,4 +1,6 @@
-import React from "react"
+import React from "react";
+import Products from "./products";
+import TweetEmbed from "react-tweet-embed";
 
 export default ({className}) => {
     return (
@@ -16,6 +18,15 @@ export default ({className}) => {
                 天然痘などが流行した時代、この人形を持っていた子供たちが病気にかからなかったことから、
                 疫病避けのお守りとしても知られています。
             </p>
+
+            <h3 className="font-bold">あなたのそばにも赤べこを</h3>
+            <p>赤べこの護符: 土津神社（猪苗代町）がTwitterで公開中</p>
+            <div className="m-2">
+                <TweetEmbed id="1252100336728150016" />
+            </div>
+
+            <p>赤べこを買う<br className="md:hidden" />（※楽天市場のサイトに遷移します）</p>
+            <Products />
         </div>
     );
 };

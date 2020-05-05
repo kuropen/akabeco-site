@@ -28,6 +28,7 @@ h2, p {
     .md-overlay-open {
         height: 100%;
         background-color: rgba(255, 255, 255, 0.8);
+        overflow-y: scroll;
     }
     .md-overlay-footer {
         bottom: 0;

@@ -15,7 +15,7 @@ const IndexPage = ({data}) => {
 
   return (
     <Layout className="top md:relative">
-      <SEO />
+      <SEO title="赤べこからパワーを" lang="ja" />
       <Image />
       <div className={descriptionShown ? "md-overlay-open" : "md-overlay"}>
         <header className="md:flex md:flex-row">

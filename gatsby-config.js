@@ -32,5 +32,15 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
     'gatsby-plugin-postcss',
+    {
+      resolve: "gatsby-source-custom-api",
+      options: {
+        url: {
+          production: "https://rocky-springs-68685.herokuapp.com/prd",
+          development: "https://rocky-springs-68685.herokuapp.com/stg",
+        },
+        rootKey: "products",
+      },
+    }
   ],
 }
