@@ -36,6 +36,12 @@ export default class Description extends React.Component {
                         The toy is believed to ward off sickness such as smallpox, as children who had this toy did not catch the illness.<br />
                         Nowadays it is the situation of COVID-19 outbreak; the toy is widely noticed as a charm to ward off sickness.
                     </p>
+
+                    <h2 className="text-xl font-bold">About this website</h2>
+                    <p>
+                        This site is to pray to bring the COVID-19 pandemic to an end earlier, with a power of Akabeko as a charm.<br />
+                        The images of Akabeko used in this site (excluding quoted ones) are licensed under <a rel="license noopener noreferrer" target="_blank" href="http://creativecommons.org/licenses/by/4.0/" className="underline">CC-BY 4.0 License</a>.
+                    </p>
                 </section>
     
                 <section id="japanese" lang="ja" className={lang === 'Japanese' ? '' : 'hidden'}>
@@ -46,8 +52,14 @@ export default class Description extends React.Component {
                         疫病避けのお守りとしても知られています。
                     </p>
     
-                    <h3 className="font-bold">あなたのそばにも赤べこを</h3>
-                    <p><strong>※以下の記述はCC-BYライセンスによる利用はできません</strong></p>
+                    <h2 className="text-xl font-bold">このサイトについて</h2>
+                    <p>
+                        このサイトは、赤べこに刻まれたこのような歴史に着目し、新型コロナウイルス（COVID-19）の感染拡大の早期終息を願い制作されました。<br />
+                        このサイト上の赤べこの画像（引用されたツイートや販売商品の画像を除きます）は、
+                        <a rel="license noopener noreferrer" target="_blank" href="http://creativecommons.org/licenses/by/4.0/" className="underline">クリエイティブ・コモンズ 表示 4.0 国際 ライセンス</a>の下に提供されています。
+                    </p>
+
+                    <h2 className="font-bold">あなたのそばにも赤べこを</h2>
                     <p>赤べこの護符: 土津神社（猪苗代町）がTwitterで公開中</p>
                     <div className="m-2">
                         <TweetEmbed id="1252100336728150016" />
