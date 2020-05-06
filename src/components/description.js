@@ -1,11 +1,12 @@
 import React from "react";
 import Products from "./products";
 import TweetEmbed from "react-tweet-embed";
+import getBrowserLanguage from "../utilities/getBrowserLanguage";
 
 export default class Description extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {lang: ''};
+        this.state = {lang: getBrowserLanguage()};
     }
 
     componentDidUpdate(prevProps) {
@@ -28,7 +29,7 @@ export default class Description extends React.Component {
                     <button className="underline" onClick={() => {this.setLang('English')}}>English</button> / 
                     <button className="underline" onClick={() => {this.setLang('Japanese')}}>Japanese</button>
                 </section>
-                <section id="english" lang="en" className={lang === 'Japanese' ? 'hidden' : ''}>
+                <section id="english" lang="en" className={lang === 'English' ? '' : 'hidden'}>
                     <h2 className="text-xl font-bold">What is akabeko?</h2>
                     <p>Akabeko is a traditional toy of Aizu region, the western part of Fukushima prefecture, 
                         which resembles legendary red cow used to build Enzoji temple (Fukuman Kokuzo) in Yanaizu town.<br />
@@ -37,7 +38,7 @@ export default class Description extends React.Component {
                     </p>
                 </section>
     
-                <section id="japanese" lang="ja" className={lang === 'English' ? 'hidden' : ''}>
+                <section id="japanese" lang="ja" className={lang === 'Japanese' ? '' : 'hidden'}>
                     <h2 className="text-xl font-bold">赤べことは</h2>
                     <p>福島県西部・会津地方の伝統的な玩具（張り子人形）であり、
                         柳津町の圓藏寺（福満虚空蔵尊）の建立の際に材木を運搬したといわれる赤い牛を模しています。<br />
