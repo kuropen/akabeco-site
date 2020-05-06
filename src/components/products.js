@@ -7,7 +7,7 @@ const PRODUCTS_SHOW_COUNT_XL = 4;
 const classnames = require('classnames');
 
 const ItemLink = ({children, url}) => (
-    <a href={url} rel="noopener noreferrer" target="_blank">{children}</a>
+    <a href={url} rel="noopener noreferrer nofollow" target="_blank">{children}</a>
 );
 
 export default () => {

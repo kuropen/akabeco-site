@@ -39,9 +39,7 @@ const Image = ({className}) => {
       }
     }
   `);
-  console.log(data);
   const imageCandidates = Object.keys(data);
-  console.log(imageCandidates);
   const selectedImage = imageCandidates[Math.floor(Math.random() * imageCandidates.length)];
 
   return (

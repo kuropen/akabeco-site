@@ -6,5 +6,5 @@ This is website located on akabe.co domain.
 
 The JavaScript code of this repository is licensed under MIT License.
 
-However, the contents of the documents and images in this repository are licensed under CC-BY-NC 4.0 License.
+However, the contents of the documents and images in this repository are licensed under CC-BY 4.0 License.
 
