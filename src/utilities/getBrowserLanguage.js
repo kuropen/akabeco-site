@@ -3,6 +3,7 @@
  * @return {string}
  */
 const getBrowserLanguagePreference = () => (
+    typeof window === 'undefined' ? null :
     (window.navigator.languages && window.navigator.languages[0]) ||
     window.navigator.language ||
     window.navigator.userLanguage ||
