@@ -37,6 +37,13 @@ const Image = ({className}) => {
           }
         }
       }
+      bekoImage4: file(relativePath: { eq: "beko4.jpg" }) {
+        childImageSharp {
+          fluid(maxWidth: 1280) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
     }
   `);
   const imageCandidates = Object.keys(data);
