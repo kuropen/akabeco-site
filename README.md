@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/41907002-3820-41a5-a722-28ccff76f02a/deploy-status)](https://app.netlify.com/sites/akabeco/deploys)
+
 # Gain the Power of Akabeko
 
 This is the source code of [website located on akabe.co domain](https://akabe.co/).
