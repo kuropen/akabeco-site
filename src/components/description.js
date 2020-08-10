@@ -2,6 +2,7 @@ import React from "react";
 import Products from "./products";
 import TweetEmbed from "react-tweet-embed";
 import getBrowserLanguage from "../utilities/getBrowserLanguage";
+import GitHubButton from "react-github-btn";
 
 export default class Description extends React.Component {
     constructor(props) {
@@ -42,6 +43,11 @@ export default class Description extends React.Component {
                         This site is to pray to bring the COVID-19 pandemic to an end earlier, with a power of Akabeko as a charm.<br />
                         The images of Akabeko used in this site (excluding quoted ones) are licensed under <a rel="license noopener noreferrer" target="_blank" href="http://creativecommons.org/licenses/by/4.0/" className="underline">CC-BY 4.0 License</a>.
                     </p>
+                    <p>
+                        The source code of this website is available on GitHub.<br/>
+                        Please feel free to make a Pull Request such as addition of Akabeko images.<br/>
+                        <GitHubButton href="https://github.com/kuropen/akabeco-site/fork" data-size="large" aria-label="Fork kuropen/akabeco-site on GitHub">Fork</GitHubButton>
+                    </p>
                 </section>
     
                 <section id="japanese" lang="ja" className={lang === 'Japanese' ? '' : 'hidden'}>
@@ -57,6 +63,11 @@ export default class Description extends React.Component {
                         このサイトは、赤べこに刻まれたこのような歴史に着目し、新型コロナウイルス（COVID-19）の感染拡大の早期終息を願い制作されました。<br />
                         このサイト上の赤べこの画像（引用されたツイートや販売商品の画像を除きます）は、
                         <a rel="license noopener noreferrer" target="_blank" href="http://creativecommons.org/licenses/by/4.0/" className="underline">クリエイティブ・コモンズ 表示 4.0 国際 ライセンス</a>の下に提供されています。
+                    </p>
+                    <p>
+                        このサイトのソースコードはGitHubで公開されています。<br/>
+                        赤べこの画像追加などのPull Requestは歓迎します。<br/>
+                        <GitHubButton href="https://github.com/kuropen/akabeco-site/fork" data-size="large" aria-label="Fork kuropen/akabeco-site on GitHub">Fork</GitHubButton>
                     </p>
 
                     <h2 className="font-bold">あなたのそばにも赤べこを</h2>
