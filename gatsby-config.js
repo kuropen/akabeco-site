@@ -35,10 +35,7 @@ module.exports = {
     {
       resolve: "gatsby-source-custom-api",
       options: {
-        url: {
-          production: "https://rocky-springs-68685.herokuapp.com/prd",
-          development: "https://rocky-springs-68685.herokuapp.com/stg",
-        },
+        url: "https://rocky-springs-68685.herokuapp.com/stg",
         rootKey: "products",
       },
     }
