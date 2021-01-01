@@ -73,7 +73,7 @@ export default class Description extends React.Component {
                     <h2 className="font-bold">あなたのそばにも赤べこを</h2>
                     <p>赤べこの護符: 土津神社（猪苗代町）がTwitterで公開中</p>
                     <div className="m-2">
-                        <TweetEmbed id="1252100336728150016" />
+                        <TweetEmbed id="1344792963226865664" />
                     </div>
     
                     <p>赤べこを買う<br className="md:hidden" />（※楽天市場のサイトに遷移します）</p>
