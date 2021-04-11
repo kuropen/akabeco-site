@@ -38,6 +38,21 @@ module.exports = {
         url: "https://rocky-springs-68685.herokuapp.com/stg",
         rootKey: "products",
       },
-    }
+    },
+    {
+      resolve: 'gatsby-plugin-ackee-tracker',
+      options: {
+        // Domatin ID found when adding a domain in the admin panel.
+        domainId: '0318a163-5361-4c07-a0d4-1cd992caffeb',
+        // URL to Server eg: "https://analytics.test.com".
+        server: 'https://ackee.eternie-labs.net',
+        // Disabled analytic tracking when running localy
+        ignoreLocalhost: true,
+        // Enable or disable the tracking of your own visits (as identified by your login to the Ackee dashboard).
+        ignoreOwnVisits: false,
+        // If enabled it will collect info on OS, BrowserInfo, Device  & ScreenSize
+        detailed: false,
+      },
+    },
   ],
 }
