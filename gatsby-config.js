@@ -43,7 +43,7 @@ module.exports = {
       resolve: 'gatsby-plugin-ackee-tracker',
       options: {
         // Domatin ID found when adding a domain in the admin panel.
-        domainId: '0318a163-5361-4c07-a0d4-1cd992caffeb',
+        domainId: '4ed12261-814f-4116-ba80-602569b61285',
         // URL to Server eg: "https://analytics.test.com".
         server: 'https://ackee.eternie-labs.net',
         // Disabled analytic tracking when running localy
